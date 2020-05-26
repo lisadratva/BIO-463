@@ -10,7 +10,7 @@ EPFL, May 2020
 
 ## Reproduction
 1. Clone or fork the repository
-2. Install [Jupyter Notebook] (https://jupyter.readthedocs.io/en/latest/install.html)
+2. Install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
 4. Install the abovementioned libraries
 5. Run `performanceCheck.ipynb` to reproduce the data analysis results
 
