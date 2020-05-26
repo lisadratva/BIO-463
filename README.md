@@ -1,7 +1,17 @@
-# BIO-463: Miniproject
+# BIO-463: Project in Genomics and Bioinformatics
 
 EPFL, May 2020
 
+This repository contains the code to produce the results from the accompanying individual report. The original output files of DeepSEA are too big for Github and available upon [request](mailto:lisa.dratva@epfl.ch). Instead, pickle files are provided to run the final analysis.
+
+## Repository
+* [`TF.py`](TF.py) lists the investigated transcription factors (TFs)
+* [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) to analyze ChIP-seq data for the TFs
+* [`analyzeResults.ipynb`](analyzeResults.ipynb) to analyze the DeepSEA output files
+* [`performanceCheck.ipynb`](performanceCheck.ipynb) to compare DeepSEA results to experimental ChIP-seq data and produce the final figure
+* [`chipSeq2.xlsx`](chipSeq2.xlsx) contains the raw ChIP-seq data for all TFs
+* [`ChIPseq_chr8_final10_low.pkl`](ChIPseq_chr8_final10_low.pkl) contains the output of the [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) notebook
+* [`predicted_TFBS_normalized_0-9_final10_low.pkl`](predicted_TFBS_normalized_0-9_final10_low.pkl) contains the output of the [`analyzeResults.ipynb`](analyzeResults.ipynb) notebook
 
 ## Dependencies
 * [`pandas`](https://pandas.pydata.org/)
