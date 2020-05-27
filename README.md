@@ -1,8 +1,9 @@
 # BIO-463: Project in Genomics and Bioinformatics
 
 EPFL, May 2020
+Paper 8: *Predicting effects of noncoding variants with deep learning-based sequence model* by Zhou & Troyanskaya (2015).
 
-This repository contains the code to produce the results from the accompanying individual report. The original output files of DeepSEA are too big for Github and available upon [request](mailto:lisa.dratva@epfl.ch). Instead, pickle files are provided to run the final analysis.
+This repository contains the code to produce the results from the accompanying individual report. The original output files of DeepSEA are 7.5 GB and available upon [request](mailto:lisa.dratva@epfl.ch). Instead, pickle files are provided to run the final analysis.
 
 ## Repository
 * [`TF.py`](TF.py) lists the investigated transcription factors (TFs)
@@ -22,7 +23,8 @@ This repository contains the code to produce the results from the accompanying i
 1. Clone or fork the repository
 2. Install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
 4. Install the abovementioned libraries
-5. Run `performanceCheck.ipynb` to reproduce the data analysis results
+5. Run [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) to extract ChIP-seq data
+6. Run [`performanceCheck.ipynb`](performanceCheck.ipynb) to reproduce the final figure
 
 ## Author
 Lisa Dratva, [lisa.dratva@epfl.ch](mailto:lisa.dratva@epfl.ch)
