@@ -1,6 +1,7 @@
 # BIO-463: Project in Genomics and Bioinformatics
 
 EPFL, May 2020
+
 Paper 8: *Predicting effects of noncoding variants with deep learning-based sequence model* by Zhou & Troyanskaya (2015).
 
 This repository contains the code to produce the results from the accompanying individual report. The original output files of DeepSEA are 7.5 GB and available upon [request](mailto:lisa.dratva@epfl.ch). Instead, pickle files are provided to run the final analysis.
