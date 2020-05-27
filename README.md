@@ -26,7 +26,7 @@ This repository contains the code to produce the results from the accompanying i
 3. Install the abovementioned libraries
 4. Run [`performanceCheck.ipynb`](performanceCheck.ipynb) to reproduce the final figure
 
-To process ChIP-seq data, run [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) (results are saved to [`ChIPseq_chr8_final10_low.pkl`](ChIPseq_chr8_final10_low.pkl)). To process DeepSEA output data, request original files (results are saved to [`predicted_TFBS_normalized_0-9_final10_low.pkl`](predicted_TFBS_normalized_0-9_final10_low.pkl)).
+To process ChIP-seq data, run [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) (results are saved to [`ChIPseq_chr8_final10_low.pkl`](ChIPseq_chr8_final10_low.pkl)). To process DeepSEA output data, request original files and run [`analyzeResults.ipynb`](analyzeResults.ipynb) (results are saved to [`predicted_TFBS_normalized_0-9_final10_low.pkl`](predicted_TFBS_normalized_0-9_final10_low.pkl)).
 ## Author
 Lisa Dratva, [lisa.dratva@epfl.ch](mailto:lisa.dratva@epfl.ch)
 
