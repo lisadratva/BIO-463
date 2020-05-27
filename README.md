@@ -23,10 +23,10 @@ This repository contains the code to produce the results from the accompanying i
 ## Reproduction
 1. Clone or fork the repository
 2. Install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
-4. Install the abovementioned libraries
-5. Run [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) to extract ChIP-seq data
-6. Run [`performanceCheck.ipynb`](performanceCheck.ipynb) to reproduce the final figure
+3. Install the abovementioned libraries
+4. Run [`performanceCheck.ipynb`](performanceCheck.ipynb) to reproduce the final figure
 
+To process ChIP-seq data, run [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) (results are saved to [`ChIPseq_chr8_final10_low.pkl`](ChIPseq_chr8_final10_low.pkl)). To process DeepSEA output data, request original files (results are saved to [`predicted_TFBS_normalized_0-9_final10_low.pkl`](predicted_TFBS_normalized_0-9_final10_low.pkl)).
 ## Author
 Lisa Dratva, [lisa.dratva@epfl.ch](mailto:lisa.dratva@epfl.ch)
 
