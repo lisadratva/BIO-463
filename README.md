@@ -14,7 +14,7 @@ This repository contains the code to produce the results from the accompanying [
 * [`chipSeq2.xlsx`](chipSeq2.xlsx) contains the raw ChIP-seq data for all TFs
 * [`ChIPseq_chr8_final10_low.pkl`](ChIPseq_chr8_final10_low.pkl) contains the output of the [`analyzeChipSeq.ipynb`](analyzeChipSeq.ipynb) notebook
 * [`predicted_TFBS_normalized_0-9_final10_low.pkl`](predicted_TFBS_normalized_0-9_final10_low.pkl) contains the output of the [`analyzeResults.ipynb`](analyzeResults.ipynb) notebook
-*[`BIO_463_Report_LisaDratva.pdf`](BIO_463_Report_LisaDratva.pdf) shows the report
+* [`BIO_463_Report_LisaDratva.pdf`](BIO_463_Report_LisaDratva.pdf) shows the report
 
 ## Dependencies
 * [`pandas`](https://pandas.pydata.org/)
